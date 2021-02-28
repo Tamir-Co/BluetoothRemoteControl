@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:text="welcome to our BT app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/btn_turn_on_off"
+        android:text="connect to bluetooth"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        style="@android:style/Widget.Holo.Button" />
+
+    <Button
+        android:id="@+id/btn_goto_remote"
+        android:text="Go to remote"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        style="@android:style/Widget.Holo.Button" />
+
+
+</LinearLayout>

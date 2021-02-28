@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bluetooth Remote Control</string>
+    <string name="disconnect_from_HC_05">disconnect from HC-05</string>
+    <string name="connect_to_Bluetooth">connect to Bluetooth</string>
+</resources>
